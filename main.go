@@ -20,4 +20,13 @@ func main() {
 	fmt.Println("Address variabel b : ", &b)
 	fmt.Println("Value ref : ", *ref)
 	fmt.Println("Address ref : ", ref)
+
+	//pointer aritmatika
+	fmt.Println("=====================")
+	var c int = 10
+	var d *int = &c
+	fmt.Println("Value variabel c : ", c)
+	fmt.Println("Address variabel c : ", &c)
+	fmt.Println("Value pointer : ", *ptr)
+	fmt.Println("Address pointer : ", ptr)
 }
